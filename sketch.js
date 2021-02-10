@@ -56,7 +56,7 @@ if(star.y>470)
 	fairy.velocityY=0;
 	star.x=fairy.x+120;
 	
-	
+	fairyVoice.stop();
 }
 
 
