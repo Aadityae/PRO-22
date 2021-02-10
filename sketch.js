@@ -19,7 +19,7 @@ function preload()
 function setup() {
 	createCanvas(800, 750);
 
-	
+	fairyVoice.play();
 
 	fairy = createSprite(130, 520);
 	fairy.addAnimation("fairyflying",fairyImg);  
@@ -70,14 +70,14 @@ function keyPressed() {
   if(keyCode === RIGHT_ARROW)
   {
 	fairy.velocityX= 3;
-	fairyVoice.play();
+	
 
   }
 
   if (keyCode === LEFT_ARROW)
   {
     fairy.velocityX= -3;
-fairyVoice.play();
+
   }
  if (keyCode === DOWN_ARROW)
   {
