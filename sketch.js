@@ -69,14 +69,14 @@ function keyPressed() {
 	//write code here
   if(keyCode === RIGHT_ARROW)
   {
-	fairy.velocityX= 3;
+	 fairy.x = fairy.x+2;
 	
 
   }
 
   if (keyCode === LEFT_ARROW)
   {
-    fairy.velocityX= -3;
+     fairy.x = fairy.x+(-2);
 
   }
  if (keyCode === DOWN_ARROW)
